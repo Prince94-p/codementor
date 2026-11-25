@@ -1,16 +1,38 @@
 <!doctype html>
+<!-- Document type: declares this file as HTML5 -->
 <html lang="en">
+  <!-- lang="en": sets the page's main language (useful for screen readers and SEO) -->
+
   <head>
+    <!-- Head section: page settings and external resources (not visible on screen) -->
+
+    <!-- Character encoding: UTF-8 supports all languages and symbols -->
     <meta charset="UTF-8" />
+
+    <!-- Favicon: the small icon shown in the browser tab (React logo here) -->
     <link rel="icon" type="image/svg+xml" href="/src/assets/react.svg" />
+
+    <!-- Responsive design: makes the page scale to the device's screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Page title: shown in the browser tab and in search results -->
     <title>CodeMentor AI - Interactive Programming Tutor & Code Reviewer</title>
+
+    <!-- Preconnect: opens connections to Google Fonts early so fonts load faster -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Fonts: Inter (for normal text) and JetBrains Mono (for code), in multiple weights -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
   </head>
+
   <body>
+    <!-- Body section: everything the user sees on screen -->
+
+    <!-- React root: the whole React app is rendered inside this div -->
     <div id="root"></div>
+
+    <!-- Entry point: Vite starts the React app from main.jsx (type="module" = ES module) -->
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
